@@ -32,7 +32,7 @@
   }
 
   .container{
-    text-align: center;
+    text-align: left;
     padding: 10px;
   }
 
@@ -45,7 +45,15 @@
     text-align: center;
   }
 
-  .mb-3{
-    margin: auto;
-  }
+.col-auto.mb-md-0.fd.mb-3 {
+    position: relative;
+    top: -80px;
+}
+.col-auto {
+    flex: auto;
+    width: 50%;
+}
+
+.
+}
   
